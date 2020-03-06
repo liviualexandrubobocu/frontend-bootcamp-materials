@@ -2,3 +2,29 @@
     01. Examples for box model properties
     We will describe margin, border, padding, width, height.
 */
+
+.box-model {
+    margin:30px 20px 30px 20px;
+    /*
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+
+        margin: 30px 20px 25px;
+        margin: 0 30px 0 0;
+    */
+    border: 3px solid red;
+    padding: 20px;
+    /*
+        padding-top...
+    */
+    width: 200px;
+    height: 300px;
+
+    /*
+    ...
+    */
+    background-color: lightblue;
+    color: darkorange;
+}

@@ -2,3 +2,34 @@
     03. Ways of positioning
     position:absolute/relative/sticky
 */
+
+.box-model {
+    /* margin:30px 20px 30px 20px; */
+    border: 3px solid red;
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    background-color: lightblue;
+    color: darkorange;
+}
+
+.big-container {
+    width: 700px;
+    height: 700px;
+    border: 2px solid green;
+    margin: 30px;
+    padding: 30px;
+}
+
+.relative {
+    position: relative;
+}
+.absolute {
+    top:20px;
+    left:30px;
+    right: 0px;
+    bottom: 0px;
+}
+.fixed {
+    position: fixed;
+}

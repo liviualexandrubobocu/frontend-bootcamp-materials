@@ -1,0 +1,19 @@
+/**
+    01. Exemplifying a SASS working structure 
+*/
+.circle {
+  border-radius: 50%;
+  -ms-border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.box-model {
+  margin: 20px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=index.css.map */
