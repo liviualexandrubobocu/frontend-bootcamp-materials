@@ -1,0 +1,12 @@
+- variables
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+- object shorthand notations
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
+- modules
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+- arrow functions
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+- classes
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
