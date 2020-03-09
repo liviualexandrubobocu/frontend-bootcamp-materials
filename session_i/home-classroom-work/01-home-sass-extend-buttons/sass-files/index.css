@@ -1,0 +1,74 @@
+/**
+    01. Create a button mixin that includes the box model mixin previously created, a color mixin that contains background color and text color,
+        a rounded corner mixin to add rounded corners and some default properties.
+        Extend the mixin using @extend and create themes for the button.
+        Create themes using @if, define a $context variable and change the theme based on the context.
+*/
+.mixin-button, .extend-button, .light-button, .dark-button {
+  font-size: 16px;
+  background-color: #00C851;
+  color: white;
+  margin: 20px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+}
+
+.extend-button {
+  font-weight: bold;
+}
+
+.light-button {
+  background-color: gainsboro;
+}
+
+.dark-button {
+  background-color: black;
+}
+
+.if-button-red {
+  font-size: 16px;
+  color: white;
+  margin: 20px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  background-color: rgba(244, 67, 54, 0.7);
+}
+
+.if-button-yellow {
+  font-size: 16px;
+  color: white;
+  margin: 20px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  background-color: rgba(255, 235, 59, 0.7);
+}
+
+.if-button-blue {
+  font-size: 16px;
+  color: white;
+  margin: 20px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  background-color: rgba(3, 169, 244, 0.7);
+}
+/*# sourceMappingURL=index.css.map */
