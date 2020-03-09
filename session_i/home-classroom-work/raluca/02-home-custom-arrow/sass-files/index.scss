@@ -1,0 +1,11 @@
+/**
+    Create a custom arrow mixin that will show an arrow based on a $context variable and @if.
+    The $context should receive one of the following values: top/right/bottom/left.
+    Create a rotation mixin to rotate the arrow and use it based on context.
+*/
+
+// IMPORTS
+@import './_variables';
+@import './mixins/_arrow';
+@import './partials/_base-styles';
+@import './partials/_styles';
