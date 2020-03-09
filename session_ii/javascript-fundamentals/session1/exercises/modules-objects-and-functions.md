@@ -3,3 +3,6 @@
 2. import the array of objects from the previous exercise, in a separate module.
    iterate through the array using an arrow function as the callback and print
    the result of calling the object's method.
+
+
+
