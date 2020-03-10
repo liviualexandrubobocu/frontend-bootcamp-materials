@@ -1,0 +1,10 @@
+@mixin blend-color($backgroundColor, $color){
+    background-color: $backgroundColor;
+    color:$color;
+
+}
+
+@mixin margins ($left, $right){
+    margin-left: $left;
+    margin-top: $right;
+}

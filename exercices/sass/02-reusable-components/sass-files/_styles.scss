@@ -1,0 +1,7 @@
+.circle {
+    @include circle(50px);
+}
+
+.box-model{
+    @include box-model($margin, $border, $padding, $width, $height );
+}

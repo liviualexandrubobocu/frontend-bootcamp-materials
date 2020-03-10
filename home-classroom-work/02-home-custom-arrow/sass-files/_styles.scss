@@ -1,0 +1,56 @@
+.circle {
+    @include circle(50px);
+}
+
+.square {
+    @include square(50px);
+}
+
+.box-model{
+    @include box-model($margin, $border, $padding, $width, $height );
+}
+
+// span {
+    
+//     border: solid black;
+//     border-width: 0 3px 3px 0;
+//     display: inline-block;
+//     padding: 3px;
+// }
+
+.arrow {
+    
+    @include arrow($color, $size, $position);
+}
+
+// .right {
+//     transform: rotate(-45deg);
+//     -webkit-transform: rotate(-45deg);
+//   }
+  
+// .left {
+// transform: rotate(135deg);
+// -webkit-transform: rotate(135deg);
+// }
+
+// .up {
+// transform: rotate(-135deg);
+// -webkit-transform: rotate(-135deg);
+// }
+
+// .down {
+// transform: rotate(45deg);
+// -webkit-transform: rotate(45deg);
+// }
+
+.blend-color{
+    @include blend-color(yellow, green);
+}
+
+.margins{
+    @include margins(5px, 10px);
+    border: solid 2px;
+    width: 100px;
+    height: 100px;
+}
+

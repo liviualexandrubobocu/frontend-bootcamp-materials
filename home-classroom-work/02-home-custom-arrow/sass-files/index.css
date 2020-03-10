@@ -1,0 +1,46 @@
+/**
+    Create a custom arrow mixin that will show an arrow based on a $context variable and @if.
+    The $context should receive one of the following values: top/right/bottom/left.
+    Create a rotation mixin to rotate the arrow and use it based on context.
+*/
+.circle {
+  border-radius: 50%;
+  -ms-border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+}
+
+.box-model {
+  margin: 20px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid red;
+}
+
+.blend-color {
+  background-color: yellow;
+  color: green;
+}
+
+.margins {
+  margin-left: 5px;
+  margin-top: 10px;
+  border: solid 2px;
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=index.css.map */

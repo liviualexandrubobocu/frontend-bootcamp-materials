@@ -1,0 +1,50 @@
+/**
+    02. Create a small card layout based on a $context variable using @if.
+    Based on the $context you should change the layout type from disabled (displaying a grayed out layout) to enabled 
+    (displaying a colorful, bottom red bordered, black texted card).
+    Reuse the box model mixin previously created.
+*/
+.circle {
+  border-radius: 50%;
+  -ms-border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+}
+
+.box-model {
+  margin: 20px;
+  border: 2px solid red;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.blend-color {
+  background-color: yellow;
+  color: green;
+}
+
+.margins, .cards {
+  margin-left: 5px;
+  margin-top: 10px;
+  border: solid 2px;
+  width: 100px;
+  height: 100px;
+}
+
+.cards {
+  opacity: 0.2;
+}
+
+/**
+    02. Create a small card layout based on a $context variable using @if.
+    Based on the $context you should change the layout type from disabled (displaying a grayed out layout) to enabled 
+    (displaying a colorful, bottom red bordered, black texted card).
+    Reuse the box model mixin previously created.
+*/
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,5 @@
+@mixin button($backgroundColor,$color,$radius){
+    
+    @include blend-color($backgroundColor,$color);
+    @include rounded($radius);
+}

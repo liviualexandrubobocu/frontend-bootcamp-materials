@@ -1,3 +1,8 @@
 /**
     01. Exemplifying a SASS working structure 
 */
+
+@import "_variables";
+@import "mixins/_shapes";
+@import "mixins/_factories";
+@import "mixins/_decorations";

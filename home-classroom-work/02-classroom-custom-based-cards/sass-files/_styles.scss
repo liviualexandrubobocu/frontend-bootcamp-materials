@@ -1,0 +1,40 @@
+.circle {
+    @include circle(50px);
+}
+
+.square {
+    @include square(50px);
+}
+
+.box-model{
+    @include box-model($margin, $border, $padding, $width, $height );
+}
+
+.blend-color{
+    @include blend-color(yellow, green);
+}
+
+.margins{
+    @include margins(5px, 10px);
+    border: solid 2px;
+    width: 100px;
+    height: 100px;
+}
+.cards{
+    @extend .margins;
+    
+    @if $opacity == "yes" {
+        opacity: 0.2;
+    } @else {
+        opacity:1;
+        border-bottom: solid 2px red;
+        color: black;
+    }
+}
+
+/**
+    02. Create a small card layout based on a $context variable using @if.
+    Based on the $context you should change the layout type from disabled (displaying a grayed out layout) to enabled 
+    (displaying a colorful, bottom red bordered, black texted card).
+    Reuse the box model mixin previously created.
+*/

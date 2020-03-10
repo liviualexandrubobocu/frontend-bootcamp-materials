@@ -1,0 +1,28 @@
+.circle {
+    @include circle(50px);
+}
+
+.square {
+    @include square(50px);
+}
+
+.box-model{
+    @include box-model($margin, $border, $padding, $width, $height );
+}
+
+.blend-color{
+    @include blend-color(yellow, green);
+}
+
+.margins{
+    @include margins(5px, 10px);
+}
+.button{
+    @extend .margins;
+    @include button(red, orange, $radius);
+    @if $opacity == "yes" {
+        opacity: 0.5;
+    } @else {
+        opacity:1;
+    }
+}
