@@ -27,10 +27,6 @@ export function f() {}
 export class A {}
 
 // export { f };
-// export { f as g }
-// export { x } from "./another-module.js"
-// export * from "./another-module.js"
-// export * as y from "./another-module.js";
 
 setTimeout(function() {
   clothes = null;
