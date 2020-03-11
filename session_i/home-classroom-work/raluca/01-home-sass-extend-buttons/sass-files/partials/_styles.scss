@@ -1,0 +1,42 @@
+section {
+    text-align: center;
+}
+
+.button {
+    @include base-button();
+}
+
+.error-button {
+    @extend .button;
+    @include apply-theme(solid, error)
+}
+
+.success-button {
+    @extend .button;
+    @include apply-theme(solid, success)
+}
+
+.disabled-button {
+    @extend .button;
+    @include apply-theme(solid, disabled)
+}
+
+.outlined-button {
+    @extend .button;
+    @include apply-theme(outlined, null)
+}
+
+.outlined-error-button {
+    @extend .button;
+    @include apply-theme(outlined, error)
+}
+
+.outlined-success-button {
+    @extend .button;
+    @include apply-theme(outlined, success)
+}
+
+.outlined-disabled-button {
+    @extend .button;
+    @include apply-theme(outlined, disabled)
+}
