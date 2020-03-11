@@ -1,14 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA;;EAEE;AKFF,AAAA,OAAO,CAAC;EHMJ,aAAa,EAAC,GAAG;EACjB,iBAAiB,EAAC,GAAG;EANrB,KAAK,EGAW,IAAI;EHCpB,MAAM,EGDU,IAAI;CACvB;;AAED,AAAA,UAAU,CAAC;EFHP,MAAM,EFDD,IAAI;EEET,MAAM,EFDD,GAAG,CAAC,KAAK,CAAC,GAAG;EEElB,OAAO,EFDD,IAAI;EEEV,KAAK,EFDD,KAAK;EEET,MAAM,EFDD,KAAK;CIEb",
-    "sources": [
-        "index.scss",
-        "_variables.scss",
-        "mixins/_shapes.scss",
-        "mixins/_factories.scss",
-        "mixins/_decorators.scss",
-        "_styles.scss"
-    ],
-    "names": [],
-    "file": "index.css"
-}
+{"version":3,"sourceRoot":"","sources":["index.scss","_styles.scss","mixins/_shapes.scss","mixins/_factories.scss","_variables.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;ACAA;ECMI;EACA;EANA;EACA,QDDgB;;;AAGpB;EEHI,QCDK;EDEL,QCDK;EDEL,SCDM;EDEN,OCDI;EDEJ,QCDK","file":"index.css"}
