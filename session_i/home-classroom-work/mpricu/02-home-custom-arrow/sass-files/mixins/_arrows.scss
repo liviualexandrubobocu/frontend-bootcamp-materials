@@ -1,0 +1,24 @@
+
+    @mixin arrow( $color , $size , $context ){
+        width: 0; 
+        height: 0; 
+        
+        @if $context == top{
+            border-left: $size solid transparent;
+            border-right: $size solid transparent;
+            border-bottom: $size solid $color;
+        }@else if $context == right{
+            border-top: $size solid transparent;
+            border-bottom: $size solid transparent; 
+            border-left: $size solid $color;
+        }@else if $context == down{
+            border-left: $size solid transparent;
+            border-right: $size solid transparent;
+            border-top: $size solid $color;
+        }@else{
+            border-top: $size solid transparent;
+            border-bottom: $size solid transparent; 
+            border-right: $size solid $color; 
+        }
+
+    }

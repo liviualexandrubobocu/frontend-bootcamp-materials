@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;EAGE;AGHF,AAAA,UAAU,CAAC;EDCP,MAAM,EDDD,IAAI;ECET,MAAM,EDDD,GAAG,CAAC,KAAK,CAAC,GAAG;ECElB,OAAO,EDDD,IAAI;ECEV,KAAK,EDDD,KAAK;ECET,MAAM,EDDD,KAAK;CEFb",
+    "sources": [
+        "index.scss",
+        "_variables.scss",
+        "mixins/_factories.scss",
+        "_styles.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

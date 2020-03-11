@@ -1,0 +1,21 @@
+/**
+<<<<<<< HEAD
+     02. Create a small card layout based on a $context variable using @if.
+    Based on the $context you should change the layout type from disabled (displaying a grayed out layout) to enabled 
+    (displaying a colorful, bottom red bordered, black texted card).
+    Reuse the box model mixin previously created.
+    
+*/
+
+@import "_variables";
+@import "mixins/_factories";
+@import "mixins/_corners";
+@import "mixins/_cards";
+@import "_styles";
+=======
+    02. Create a small card layout based on a $context variable using @if.
+    Based on the $context you should change the layout type from disabled (displaying a grayed out layout) to enabled 
+    (displaying a colorful, bottom red bordered, black texted card).
+    Reuse the box model mixin previously created.
+*/
+>>>>>>> ad395c7a8bd945a237bc54047d805ad604fdda27
