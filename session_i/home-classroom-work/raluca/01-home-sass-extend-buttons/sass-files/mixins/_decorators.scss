@@ -1,0 +1,26 @@
+@mixin colorize($backgroundColor, $color, $isInteractive: false) {
+    background-color: $backgroundColor;
+    color: $color;
+
+    @if $isInteractive {
+        transition: all .4s ease;
+
+        &:hover {
+            @include box-shadow(0, 5px, 5px, -5px, rgba(0, 0, 0, .6), null);
+        }
+
+        &:active {
+            background-color: darken($backgroundColor, 10%);
+            color: darken($color, 10%);
+        }
+    }
+}
+
+@mixin corners($radius) {
+    border-radius: $radius;
+    -ms-border-radius: $radius;
+}
+
+@mixin box-shadow($x, $y, $blur, $spread, $color, $inset) {
+    box-shadow: $x $y $blur $spread $color $inset;
+}
