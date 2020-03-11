@@ -1,9 +1,0 @@
-
-.mixin-card-disable {
-    @include mixin-card($margin, $border, $padding, $width, $height,
-     $border-radius, disable);
-}
-.mixin-card-enable {
-    @include mixin-card($margin, $border, $padding, $width, $height,
-     $border-radius, $context);
-}
