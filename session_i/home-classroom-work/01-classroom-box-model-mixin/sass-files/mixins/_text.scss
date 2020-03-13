@@ -1,0 +1,5 @@
+@mixin myfontstyle($mytransform, $myfontsize){
+    text-transform: $mytransform;
+    font-size:$myfontsize;
+}
+

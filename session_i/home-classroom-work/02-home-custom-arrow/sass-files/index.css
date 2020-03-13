@@ -1,0 +1,71 @@
+/**
+    Create a custom arrow mixin that will show an arrow based on a $context variable and @if.
+    The $context should receive one of the following values: top/right/bottom/left.
+    Create a rotation mixin to rotate the arrow and use it based on context.
+*/
+/**
+    Create a custom arrow mixin that will show an arrow based on a $context variable and @if.
+    The $context should receive one of the following values: top/right/bottom/left.
+*/
+/**
+    Create a rotation mixin to rotate the arrow and use it based on context.
+*/
+/*  VARIANTA 2:
+
+
+@mixin rotate($property, $context: top right down left){
+    
+    @if $context {
+        @each $case in $context {
+            transform: $property;
+        }
+      }
+}
+*/
+.box-model {
+  margin: 20px;
+  border: 2px solid #ddd;
+  padding: 20px;
+  width: 20%;
+}
+
+.topArrow {
+  width: 0px;
+  height: 0px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid pink;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.leftArrow {
+  width: 0px;
+  height: 0px;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid pink;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.rightArrow {
+  width: 0px;
+  height: 0px;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid pink;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.downArrow {
+  width: 0px;
+  height: 0px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid pink;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+/*# sourceMappingURL=index.css.map */

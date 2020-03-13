@@ -1,0 +1,28 @@
+/**
+    Create a custom arrow mixin that will show an arrow based on a $context variable and @if.
+    The $context should receive one of the following values: top/right/bottom/left.
+*/
+    @mixin arrow($arrowWidth, $arrowHeight, $border-transparent, $border-colored, $context){
+        width: $arrowWidth; 
+        height: $arrowHeight; 
+      
+        @if $context == top{
+            border-left: $border-transparent;
+            border-right: $border-transparent;
+            border-bottom: $border-colored;
+        }@else if $context == right{
+            border-top: $border-transparent;
+            border-bottom: $border-transparent; 
+            border-left: $border-colored;
+        }@else if $context == down{
+            border-left: $border-transparent;
+            border-right: $border-transparent;
+            border-top: $border-colored;
+        }@else{
+            border-top: $border-transparent;
+            border-bottom: $border-transparent; 
+            border-right: $border-colored; 
+        }
+
+    }
+

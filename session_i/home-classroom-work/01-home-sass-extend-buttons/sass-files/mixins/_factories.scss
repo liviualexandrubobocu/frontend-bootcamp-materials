@@ -1,0 +1,5 @@
+@mixin box-model($margin, $border, $padding){
+    margin:$margin;
+    border: $border;
+    padding: $padding;
+}

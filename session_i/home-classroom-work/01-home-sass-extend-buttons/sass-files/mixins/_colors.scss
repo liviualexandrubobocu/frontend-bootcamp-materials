@@ -1,0 +1,5 @@
+/*a color mixin that contains background color and text color,*/
+@mixin colors($colorBtn, $textColorBtn){
+    background-color: $colorBtn;
+    color: $textColorBtn;
+}

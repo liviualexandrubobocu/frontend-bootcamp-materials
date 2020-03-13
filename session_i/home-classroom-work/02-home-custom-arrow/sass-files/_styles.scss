@@ -1,0 +1,29 @@
+
+    .box-model {
+        @include box-model($margin, $border, $padding, $mywidth);
+    }
+
+    .topArrow{
+        @include arrow($arrowWidth, $arrowHeight, $border-transparent, $border-colored, top);
+        @include rotate(top);
+        // @include rotate($property, $context: top)
+    }
+    
+    .leftArrow{
+        @include arrow($arrowWidth, $arrowHeight, $border-transparent, $border-colored, left);
+        @include rotate(left);
+        // @include rotate($property, $context: left)
+    }
+    
+    .rightArrow{
+        @include arrow($arrowWidth, $arrowHeight, $border-transparent, $border-colored, right);
+        @include rotate(right);
+        // @include rotate($property, $context: right)
+    }
+    
+    .downArrow{
+        @include arrow($arrowWidth, $arrowHeight, $border-transparent, $border-colored, down);
+        @include rotate(down);
+        // @include rotate($property, $context: down)
+    }
+

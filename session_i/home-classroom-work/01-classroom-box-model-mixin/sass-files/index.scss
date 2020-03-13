@@ -1,0 +1,10 @@
+/**
+    01. Take the properties from the first exercise and create a box model mixin.
+    Reuse the mixin to create a box with a text paragraph
+*/
+
+@import "_variables";
+@import "mixins/_factories";
+@import "mixins/_decorators";
+@import "mixins/_text";
+@import "_styles";

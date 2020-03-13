@@ -1,0 +1,8 @@
+/*a rounded corner mixin to add rounded corners and some default properties.*/
+
+@mixin rounded($roundCorners, $paddingBtn, $myTextAlign, $myFontSize){
+    border-radius:$roundCorners; 
+    padding: $paddingBtn;
+    text-align: $myTextAlign;
+    font-size: $myFontSize;
+}

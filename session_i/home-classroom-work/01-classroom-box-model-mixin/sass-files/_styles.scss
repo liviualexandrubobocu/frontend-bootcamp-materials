@@ -1,0 +1,9 @@
+.box-model {
+    @include box-model($margin, $border, $padding);
+    @include blend-color($backgroundColor, $color)
+}
+
+.paragraph {
+    @include box-model($mymargin, $myborder, $mypadding);
+    @include myfontstyle($mytransform, $myfontsize);
+}

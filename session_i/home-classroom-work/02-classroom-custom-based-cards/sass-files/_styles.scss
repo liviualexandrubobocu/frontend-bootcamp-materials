@@ -1,0 +1,9 @@
+@if $context == disabled {
+    .box-model{
+        @include box-model($mybackground, $margin, $border, $padding, $mybox-shadow, $my-transition, $my-width, $mytextColor);
+    }
+} @else {
+    .box-model {
+        @include box-model($mycoloredbackground, $margin, $borderColor, $padding, $mybox-shadow, $my-transition, $my-width, $mytextColorblack);
+    }
+}

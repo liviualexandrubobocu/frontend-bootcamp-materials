@@ -1,0 +1,6 @@
+@mixin buttons{
+    @include box-model($margin, $border, $padding);
+    @include colors($colorBtn, $textColorBtn);
+    @include rounded($roundCorners, $paddingBtn, $myTextAlign, $myFontSize);
+}
+

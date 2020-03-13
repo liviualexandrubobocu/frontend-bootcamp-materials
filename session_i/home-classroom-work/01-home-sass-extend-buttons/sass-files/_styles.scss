@@ -1,0 +1,48 @@
+.box-model {
+    @include box-model($margin, $border, $padding);
+}
+
+.btn {
+    @include buttons;
+}
+
+.btn1{
+    @extend .btn;
+    @include themeBlue($colorblue);
+}
+
+.btn2{
+    @extend .btn;
+    @include themeRed($colorred);
+}
+
+// ---------- Create themes using @if, define a $context variable and change the theme based on the context
+
+@if $context {
+    .btn_if{
+        @extend .btn;
+        @include themeRed($colorred);
+    }
+  } @else {
+    .btn_if{
+        @extend .btn;
+        @include themeBlue($colorblue);
+    }
+  }
+
+/*   VARIANTA 2:
+
+  .btn_if{
+    @extend .btn;
+    @include themeRed($colorred);
+
+    &:hover{
+        @extend .btn;
+        @include themeBlue($colorblue);
+      }
+}
+
+*/
+
+
+ 

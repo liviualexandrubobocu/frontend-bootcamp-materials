@@ -1,0 +1,19 @@
+/**
+    02. Create a small card layout based on a $context variable using @if.
+    Based on the $context you should change the layout type from disabled (displaying a grayed out layout) to enabled 
+    (displaying a colorful, bottom red bordered, black texted card).
+    Reuse the box model mixin previously created.
+*/
+.box-model {
+  background-color: #fff;
+  margin: 20px;
+  border-bottom: 2px solid #ddd;
+  padding: 20px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 20%;
+  color: #ddd;
+}
+/*# sourceMappingURL=index.css.map */

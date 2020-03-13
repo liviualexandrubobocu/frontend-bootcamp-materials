@@ -1,0 +1,52 @@
+/**
+    01. Create a button mixin that includes the box model mixin previously created, a color mixin that contains background color and text color,
+        a rounded corner mixin to add rounded corners and some default properties.
+        Extend the mixin using @extend and create themes for the button.
+        Create themes using @if, define a $context variable and change the theme based on the context.
+*/
+/*a color mixin that contains background color and text color,*/
+/*a rounded corner mixin to add rounded corners and some default properties.*/
+.box-model {
+  margin: 20px;
+  border: 2px solid green;
+  padding: 20px;
+}
+
+.btn, .btn1, .btn2, .btn_if {
+  margin: 20px;
+  border: 2px solid green;
+  padding: 20px;
+  background-color: yellow;
+  color: purple;
+  border-radius: 4px;
+  padding: 10px 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn1 {
+  background-color: blue;
+}
+
+.btn2 {
+  background-color: red;
+}
+
+.btn_if {
+  background-color: blue;
+}
+
+/*   VARIANTA 2:
+
+  .btn_if{
+    @extend .btn;
+    @include themeRed($colorred);
+
+    &:hover{
+        @extend .btn;
+        @include themeBlue($colorblue);
+      }
+}
+
+*/
+/*# sourceMappingURL=index.css.map */

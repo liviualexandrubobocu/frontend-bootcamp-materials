@@ -1,0 +1,28 @@
+/**
+    Create a rotation mixin to rotate the arrow and use it based on context.
+*/
+
+@mixin rotate($context){
+    @if $context == top{
+        transform: rotate(90deg);
+    }@else if $context == right{
+        transform: rotate(0deg);
+    }@else if $context == down{
+        transform: rotate(-90deg);
+    }@else{
+        transform: rotate(-180deg);
+    }
+}
+
+/*  VARIANTA 2:
+
+
+@mixin rotate($property, $context: top right down left){
+    
+    @if $context {
+        @each $case in $context {
+            transform: $property;
+        }
+      }
+}
+*/

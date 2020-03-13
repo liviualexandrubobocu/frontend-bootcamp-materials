@@ -1,0 +1,10 @@
+@mixin box-model($mybackground, $margin, $border, $padding, $mybox-shadow, $my-transition, $my-width, $mytextColor){
+    background-color: $mybackground;
+    margin:$margin;
+    border-bottom: $border;
+    padding: $padding;
+    box-shadow: $mybox-shadow;
+    transition: $my-transition;
+    width:$my-width;
+    color: $mytextColor;
+  }
