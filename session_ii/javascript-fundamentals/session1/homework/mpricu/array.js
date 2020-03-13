@@ -36,4 +36,4 @@ let array1 = [
     },
 ];
 
-export default array1;
+export {array1} ;
