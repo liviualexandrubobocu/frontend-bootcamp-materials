@@ -1,0 +1,17 @@
+/**
+    01. Take the properties from the first exercise and create a box model mixin.
+    Reuse the mixin to create a box with a text paragraph
+*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box {
+  margin: 10px;
+  border: 1px solid tomato;
+  padding: 20px;
+  width: 450px;
+  height: auto;
+}
+/*# sourceMappingURL=index.css.map */
