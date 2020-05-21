@@ -1,0 +1,5 @@
+@mixin corners($border-radius){
+    border-radius: $border-radius ;
+    -ms-border-radius: $border-radius;
+    -o-border-radius: $border-radius;
+}

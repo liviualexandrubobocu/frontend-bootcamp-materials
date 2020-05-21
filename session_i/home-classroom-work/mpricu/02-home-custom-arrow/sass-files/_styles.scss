@@ -1,0 +1,40 @@
+
+.topArrow{
+    @include arrow(rgba(63, 81, 181, 0.7), $size , top );
+}
+
+.leftArrow{
+    @include arrow(rgba(233, 30, 99, 0.7)  , $size , left );
+}
+
+.rightArrow{
+    @include arrow(rgba(76, 175, 80, 0.7) , $size , right );
+}
+
+.downArrow{
+    @include arrow(rgba(0, 150, 136, 0.7) , $size , down );
+}
+
+.rotateTopArrow{
+    @include rotation($color1, $size , top );
+}
+
+.rotateLeftArrow{
+    @include rotation($color1, $size , left );
+}
+
+.rotateRightArrow{
+    @include rotation($color1, $size , right );
+}
+
+.rotateDownArrow{
+    @include rotation($color1, $size , down );
+}
+
+.margin {
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+}
