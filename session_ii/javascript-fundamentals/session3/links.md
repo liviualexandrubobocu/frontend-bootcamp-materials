@@ -1,0 +1,6 @@
+- immutability update patterns
+  - https://redux.js.org/recipes/structuring-reducers/immutable-update-patterns
+- immutablejs
+  - https://immutable-js.github.io/immutable-js/
+- immer
+  - https://immerjs.github.io/immer/docs/introduction
